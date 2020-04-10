@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/neelamchawla/project_world.git/static/css/main.f3e3804c.chunk.css",
+    "main.js": "/neelamchawla/project_world.git/static/js/main.9fb321a8.chunk.js",
+    "main.js.map": "/neelamchawla/project_world.git/static/js/main.9fb321a8.chunk.js.map",
+    "runtime-main.js": "/neelamchawla/project_world.git/static/js/runtime-main.940425d9.js",
+    "runtime-main.js.map": "/neelamchawla/project_world.git/static/js/runtime-main.940425d9.js.map",
+    "static/css/2.e5a96deb.chunk.css": "/neelamchawla/project_world.git/static/css/2.e5a96deb.chunk.css",
+    "static/js/2.bf1047c0.chunk.js": "/neelamchawla/project_world.git/static/js/2.bf1047c0.chunk.js",
+    "static/js/2.bf1047c0.chunk.js.map": "/neelamchawla/project_world.git/static/js/2.bf1047c0.chunk.js.map",
+    "index.html": "/neelamchawla/project_world.git/index.html",
+    "precache-manifest.f7b22323a9a5f77c30c76e0bb137d0f8.js": "/neelamchawla/project_world.git/precache-manifest.f7b22323a9a5f77c30c76e0bb137d0f8.js",
+    "service-worker.js": "/neelamchawla/project_world.git/service-worker.js",
+    "static/css/2.e5a96deb.chunk.css.map": "/neelamchawla/project_world.git/static/css/2.e5a96deb.chunk.css.map",
+    "static/css/main.f3e3804c.chunk.css.map": "/neelamchawla/project_world.git/static/css/main.f3e3804c.chunk.css.map",
+    "static/js/2.bf1047c0.chunk.js.LICENSE.txt": "/neelamchawla/project_world.git/static/js/2.bf1047c0.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/neelamchawla/project_world.git/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.940425d9.js",
+    "static/css/2.e5a96deb.chunk.css",
+    "static/js/2.bf1047c0.chunk.js",
+    "static/css/main.f3e3804c.chunk.css",
+    "static/js/main.9fb321a8.chunk.js"
+  ]
+}
