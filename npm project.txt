@@ -1,0 +1,80 @@
+npm install react-icons --save
+https://www.npmjs.com/package/react-icons
+https://react-icons.netlify.com/#/
+
+--------------------------------------------------------------
+
+npm i react-notify-toast
+https://www.npmjs.com/package/react-notify-toast
+
+--------------------------------------------------------------
+
+npm install react-modal
+https://www.npmjs.com/package/react-modal
+http://reactcommunity.org/react-modal/
+
+--------------------------------------------------------------
+
+npm i react-tippy
+https://www.npmjs.com/package/react-tippy
+https://tvkhoa.github.io/testlib/
+
+--------------------------------------------------------------
+
+npm i react-countup
+https://www.npmjs.com/package/react-countup
+https://react-countup.now.sh/
+
+--------------------------------------------------------------
+
+npm i react-idle-timer
+https://www.npmjs.com/package/react-idle-timer
+
+--------------------------------------------------------------
+
+npm i react-color
+https://www.npmjs.com/package/react-color
+
+--------------------------------------------------------------
+
+npm i react-credit-cards
+https://www.npmjs.com/package/react-credit-cards
+https://github.com/amarofashion/react-credit-cards
+https://amarofashion.github.io/react-credit-cards/	-> demo
+
+
+--------------------------------------------------------------
+
+npm i react-datepicker
+https://www.npmjs.com/package/react-datepicker
+https://github.com/Hacker0x01/react-datepicker
+
+--------------------------------------------------------------
+
+npm i mdx-deck
+https://www.npmjs.com/package/mdx-deck
+https://github.com/jxnblk/mdx-deck/blob/HEAD/docs/themes.md
+
+---
+instead of
+"start": "react-scripts start"
+
+add this in package.json
+"start": "mdx-deck src/deck/deck.mdx"
+
+---
+
+After adding 
+run npm i -D mdx-deck
+then re-start npm
+
+---
+
+theme
+export const theme = themes.notes
+
+MDX slide will start
+
+--------------------------------------------------------------
+
+https://www.youtube.com/watch?v=nX_xDBR_gqo&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=3

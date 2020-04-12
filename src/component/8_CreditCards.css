@@ -1,0 +1,38 @@
+input.creditCard {
+    position: relative;
+    display: flex;
+    margin-top: 0.5%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    width: 27%;
+    line-height: 1.5;
+    color: indigo ;
+    background-color: wheat;
+    background-clip: padding-box;
+    border: 1px solid teal;
+    border-radius: .25rem;
+    transition: border-color .15s;
+}
+
+.inp2{
+    width: 11.8%;
+    display: initial;
+    margin-right: 2px;
+    margin-left: 3px;
+}
+
+input {
+    position: relative;
+    display: flex;
+    margin-top: 0.5%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    width: 70%;
+    line-height: 1.5;
+    color: indigo ;
+    background-color: wheat;
+    background-clip: padding-box;
+    border: 1px solid teal;
+    border-radius: .25rem;
+    transition: border-color .15s;
+}
