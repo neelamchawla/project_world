@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f40ac1724c7d4feecbd6fd44ad5e2332",
+    "revision": "80b7b67d32aff6c83574648d64657743",
     "url": "/neelamchawla/project_world.git/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/neelamchawla/project_world.git/static/css/2.e5a96deb.chunk.css"
   },
   {
-    "revision": "635ed9029f235bd8e859",
+    "revision": "5089b1c8ebc0f13f4392",
     "url": "/neelamchawla/project_world.git/static/css/main.f3e3804c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/neelamchawla/project_world.git/static/js/2.bf1047c0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "635ed9029f235bd8e859",
-    "url": "/neelamchawla/project_world.git/static/js/main.9fb321a8.chunk.js"
+    "revision": "5089b1c8ebc0f13f4392",
+    "url": "/neelamchawla/project_world.git/static/js/main.336cbecb.chunk.js"
   },
   {
     "revision": "81ce028b62d33db5db8c",
