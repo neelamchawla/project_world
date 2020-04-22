@@ -75,3 +75,15 @@ li.link-wrapper > a.active {
   color: white;
   background-color: blue;
 }
+
+.post img {
+  position: absolute;
+  top: 20px;
+  left: -100px;
+  opacity: 0.6;
+}
+
+.post {
+  overflow: hidden;
+  padding-left: 80px;
+}

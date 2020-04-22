@@ -2,34 +2,47 @@ import React, { Component } from 'react';
 import { IconContext } from 'react-icons'
 import { FaFortAwesome } from "react-icons/fa";
 import { MdReplay } from "react-icons/md";
-import axios from 'axios';
 
+// import axios from 'axios';
+import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+
+import Pokeball from '../pokeball.png';
 
 class Icons extends Component {
 
-  state = {
-    posts: []
-  }
-  componentDidMount() {
-    axios.get('https://jsonplaceholder.typicode.com/posts')
-      .then(res => {
-        console.log(res)
-        this.setState({
-          posts: res.data.slice(0,10)
-        })
-      })
-  }
+  // state = {
+  //   posts: []
+  // }
+  // componentDidMount() {
+  //   axios.get('https://jsonplaceholder.typicode.com/posts')
+  //     .then(res => {
+  //       console.log(res)
+  //       this.setState({
+  //         posts: res.data.slice(0,10)
+  //       })
+  //     })
+  // }
+
+
+  // using redux
 
   render() {
+    // console.log("icon props->",this.props)
+    // const { posts } = this.state  //wth out redux
+    const { posts } = this.props;
 
-    const { posts } = this.state
     const postList = posts.length ?
     (posts.map (post => {
+      // console.log(posts)
       return (
         <div className="post card" key={post.id}>
-          <div className="card-content">
+          <img src={Pokeball} alt="Pokeball" />
+          <div className="card-content blue-text">
             {post.id}
-            <span>.<h5>{post.title}</h5></span>
+            <Link to={'/' + post.id}>
+                <span className="card-title red-text"><h5>{post.title}</h5></span>
+            </Link>
             <p>{post.body}</p>
           </div>
         </div>
@@ -59,5 +72,11 @@ class Icons extends Component {
   }
 }
   
-  export default Icons;
+const mapStateToProps = state => {
+  console.log("icon state",state)
+  return {
+    posts: state.posts
+  }
+}
+  export default connect(mapStateToProps)(Icons);
   
