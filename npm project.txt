@@ -55,6 +55,13 @@ npm i mdx-deck
 https://www.npmjs.com/package/mdx-deck
 https://github.com/jxnblk/mdx-deck/blob/HEAD/docs/themes.md
 
+--------------------------------------------------------------
+
+npm install redux
+npm install react-redux --save
+
+--------------------------------------------------------------
+
 ---
 instead of
 "start": "react-scripts start"
@@ -78,3 +85,10 @@ MDX slide will start
 --------------------------------------------------------------
 
 https://www.youtube.com/watch?v=nX_xDBR_gqo&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=3
+
+--------------------------------------------------------------
+
+npm install gh-pages --save-dev
+npm i extract-css-chunks-webpack-plugin
+npm install --save-dev webpack-manifest-plugin
+
