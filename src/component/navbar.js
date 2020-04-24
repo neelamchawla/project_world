@@ -46,6 +46,9 @@ const Navbar = (props) => {
         <li>
             <Link to='/DatePickerd'>Date Picker</Link>
         </li>
+        <li>
+            <Link to='/AgeCal'>Age Calculate</Link>
+        </li>
       </ul>
     </div>
     </nav>

@@ -14,6 +14,7 @@ import '../src/App.css';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Post from './component/10_Post';
+import AgeCal from './component/12_AgeCal';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path ='/ColorPicker' component={ColorPicker} />
         <Route path ='/CreditCard' component={CreditCards} />
         <Route path ='/DatePickerd' component={DatePickerd} />
+        <Route path ='/AgeCal' component={AgeCal} />
         <Route path ='/:postId' component={Post} />
       </Switch>
     </div>
