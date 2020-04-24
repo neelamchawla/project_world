@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/neelamchawla/project_world.git/static/css/main.5e05939a.chunk.css",
-    "main.js": "/neelamchawla/project_world.git/static/js/main.d8954955.chunk.js",
-    "main.js.map": "/neelamchawla/project_world.git/static/js/main.d8954955.chunk.js.map",
+    "main.js": "/neelamchawla/project_world.git/static/js/main.c916e0d3.chunk.js",
+    "main.js.map": "/neelamchawla/project_world.git/static/js/main.c916e0d3.chunk.js.map",
     "runtime-main.js": "/neelamchawla/project_world.git/static/js/runtime-main.940425d9.js",
     "runtime-main.js.map": "/neelamchawla/project_world.git/static/js/runtime-main.940425d9.js.map",
     "static/css/2.add543e1.chunk.css": "/neelamchawla/project_world.git/static/css/2.add543e1.chunk.css",
-    "static/js/2.3d5764bc.chunk.js": "/neelamchawla/project_world.git/static/js/2.3d5764bc.chunk.js",
-    "static/js/2.3d5764bc.chunk.js.map": "/neelamchawla/project_world.git/static/js/2.3d5764bc.chunk.js.map",
+    "static/js/2.8af364e9.chunk.js": "/neelamchawla/project_world.git/static/js/2.8af364e9.chunk.js",
+    "static/js/2.8af364e9.chunk.js.map": "/neelamchawla/project_world.git/static/js/2.8af364e9.chunk.js.map",
     "index.html": "/neelamchawla/project_world.git/index.html",
-    "precache-manifest.96a615f547b485dafdbc90710b465500.js": "/neelamchawla/project_world.git/precache-manifest.96a615f547b485dafdbc90710b465500.js",
+    "precache-manifest.2bb2f9890cbeb3d9091799928b0ca5cd.js": "/neelamchawla/project_world.git/precache-manifest.2bb2f9890cbeb3d9091799928b0ca5cd.js",
     "service-worker.js": "/neelamchawla/project_world.git/service-worker.js",
     "static/css/2.add543e1.chunk.css.map": "/neelamchawla/project_world.git/static/css/2.add543e1.chunk.css.map",
     "static/css/main.5e05939a.chunk.css.map": "/neelamchawla/project_world.git/static/css/main.5e05939a.chunk.css.map",
-    "static/js/2.3d5764bc.chunk.js.LICENSE.txt": "/neelamchawla/project_world.git/static/js/2.3d5764bc.chunk.js.LICENSE.txt",
+    "static/js/2.8af364e9.chunk.js.LICENSE.txt": "/neelamchawla/project_world.git/static/js/2.8af364e9.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/neelamchawla/project_world.git/static/media/logo.5d5d9eef.svg",
     "static/media/pokeball.png": "/neelamchawla/project_world.git/static/media/pokeball.f10bf078.png"
   },
   "entrypoints": [
     "static/js/runtime-main.940425d9.js",
     "static/css/2.add543e1.chunk.css",
-    "static/js/2.3d5764bc.chunk.js",
+    "static/js/2.8af364e9.chunk.js",
     "static/css/main.5e05939a.chunk.css",
-    "static/js/main.d8954955.chunk.js"
+    "static/js/main.c916e0d3.chunk.js"
   ]
 }
