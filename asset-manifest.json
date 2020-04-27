@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/neelamchawla/project_world.git/static/css/main.5e05939a.chunk.css",
-    "main.js": "/neelamchawla/project_world.git/static/js/main.c916e0d3.chunk.js",
-    "main.js.map": "/neelamchawla/project_world.git/static/js/main.c916e0d3.chunk.js.map",
-    "runtime-main.js": "/neelamchawla/project_world.git/static/js/runtime-main.940425d9.js",
-    "runtime-main.js.map": "/neelamchawla/project_world.git/static/js/runtime-main.940425d9.js.map",
-    "static/css/2.add543e1.chunk.css": "/neelamchawla/project_world.git/static/css/2.add543e1.chunk.css",
-    "static/js/2.8af364e9.chunk.js": "/neelamchawla/project_world.git/static/js/2.8af364e9.chunk.js",
-    "static/js/2.8af364e9.chunk.js.map": "/neelamchawla/project_world.git/static/js/2.8af364e9.chunk.js.map",
-    "index.html": "/neelamchawla/project_world.git/index.html",
-    "precache-manifest.d09a8f58969584f2ea1803a75894057b.js": "/neelamchawla/project_world.git/precache-manifest.d09a8f58969584f2ea1803a75894057b.js",
-    "service-worker.js": "/neelamchawla/project_world.git/service-worker.js",
-    "static/css/2.add543e1.chunk.css.map": "/neelamchawla/project_world.git/static/css/2.add543e1.chunk.css.map",
-    "static/css/main.5e05939a.chunk.css.map": "/neelamchawla/project_world.git/static/css/main.5e05939a.chunk.css.map",
-    "static/js/2.8af364e9.chunk.js.LICENSE.txt": "/neelamchawla/project_world.git/static/js/2.8af364e9.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/neelamchawla/project_world.git/static/media/logo.5d5d9eef.svg",
-    "static/media/pokeball.png": "/neelamchawla/project_world.git/static/media/pokeball.f10bf078.png"
+    "main.css": "/project_world/static/css/main.122b4da0.chunk.css",
+    "main.js": "/project_world/static/js/main.63943b90.chunk.js",
+    "main.js.map": "/project_world/static/js/main.63943b90.chunk.js.map",
+    "runtime-main.js": "/project_world/static/js/runtime-main.c7a57e1c.js",
+    "runtime-main.js.map": "/project_world/static/js/runtime-main.c7a57e1c.js.map",
+    "static/css/2.ba1d7872.chunk.css": "/project_world/static/css/2.ba1d7872.chunk.css",
+    "static/js/2.e16cafed.chunk.js": "/project_world/static/js/2.e16cafed.chunk.js",
+    "static/js/2.e16cafed.chunk.js.map": "/project_world/static/js/2.e16cafed.chunk.js.map",
+    "index.html": "/project_world/index.html",
+    "precache-manifest.34edbd63cfda4008d198ca0d239a6b8b.js": "/project_world/precache-manifest.34edbd63cfda4008d198ca0d239a6b8b.js",
+    "service-worker.js": "/project_world/service-worker.js",
+    "static/css/2.ba1d7872.chunk.css.map": "/project_world/static/css/2.ba1d7872.chunk.css.map",
+    "static/css/main.122b4da0.chunk.css.map": "/project_world/static/css/main.122b4da0.chunk.css.map",
+    "static/js/2.e16cafed.chunk.js.LICENSE.txt": "/project_world/static/js/2.e16cafed.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/project_world/static/media/logo.5d5d9eef.svg",
+    "static/media/pokeball.png": "/project_world/static/media/pokeball.f10bf078.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.940425d9.js",
-    "static/css/2.add543e1.chunk.css",
-    "static/js/2.8af364e9.chunk.js",
-    "static/css/main.5e05939a.chunk.css",
-    "static/js/main.c916e0d3.chunk.js"
+    "static/js/runtime-main.c7a57e1c.js",
+    "static/css/2.ba1d7872.chunk.css",
+    "static/js/2.e16cafed.chunk.js",
+    "static/css/main.122b4da0.chunk.css",
+    "static/js/main.63943b90.chunk.js"
   ]
 }
