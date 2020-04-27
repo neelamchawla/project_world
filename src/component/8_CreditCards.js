@@ -52,7 +52,7 @@ const CreditCards = () => {
           
       </form>
       </center>
-      <div className="container">
+      <div className="box">
       <table>
         <tr>
           <th>Card</th>
