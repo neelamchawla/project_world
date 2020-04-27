@@ -67,14 +67,17 @@ class Post extends Component {
   }
 }
 
-const mapStateToProps = (state, ownProps) => {
+
+//multiple reducer replacing state with store
+const mapStateToProps = (store, ownProps) => {
   // console.log(ownProps.match.params.postId)
   // console.log("post state",state.posts[0].id);
-  // console.log("post ownProps",ownProps.match);
-  // console.log("id", typeof(ownProps.match.params.postId));
+  console.log("post ownProps",ownProps.match);
+  console.log("id", typeof(ownProps.match.params.postId));
   const id = parseInt(ownProps.match.params.postId);
   return {
-    posts: state.posts.find(res => res.id === id)
+    // posts: state.posts.find(res => res.id === id)
+    posts: store.rootReducer.posts.find(res => res.id === id) //multiple reducer replacing state with store
   }
 }
 

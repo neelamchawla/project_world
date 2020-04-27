@@ -4,7 +4,7 @@ import '../App.css';
 
 //NavLink helps getting active page property,
 // we can add active page css to the active link
-
+ 
 const Navbar = (props) => {
     // setTimeout(() => {
     //     props.history.push('/Icons')
@@ -48,6 +48,12 @@ const Navbar = (props) => {
         </li>
         <li>
             <Link to='/AgeCal'>Age Calculate</Link>
+        </li>
+        <li>
+            <Link to='/MultipleRedux'>Multiple Redux</Link>
+        </li>
+        <li>
+            <Link to='/Hoc'>Hoc Redux</Link>
         </li>
       </ul>
     </div>

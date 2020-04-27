@@ -2,7 +2,7 @@
 	"name": "project",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://github.com/neelamchawla/project_world.git",
+	"homepage": "https://neelamchawla.github.io/project_world/",
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.5.0",
@@ -10,6 +10,7 @@
 		"axios": "^0.19.2",
 		"extract-css-chunks-webpack-plugin": "^4.7.4",
 		"mdx-deck": "^4.1.1",
+		"node-sass": "^4.14.0",
 		"react": "^16.13.0",
 		"react-color": "^2.18.0",
 		"react-countup": "^4.3.3",

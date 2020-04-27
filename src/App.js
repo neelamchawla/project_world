@@ -1,5 +1,10 @@
 import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+
+import '../src/App.css';
+
 import HomePage from './component/HomePage';
+import Navbar from './component/navbar';
 import Icons from './component/1_Icons';
 import Toastify from './component/2_Toastify';
 import Modals from './component/3_Modal';
@@ -9,12 +14,10 @@ import IdleTimerContainer from './component/6_IdleTimerContainer';
 import ColorPicker from './component/7_ColorPicker';
 import CreditCards from './component/8_CreditCards';
 import DatePickerd from './component/9_DatePicker';
-import Navbar from './component/navbar';
-import '../src/App.css';
-
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Post from './component/10_Post';
 import AgeCal from './component/12_AgeCal';
+import MultipleRedux from './component/13_MultipleRedux';
+import Hoc from './component/hocs/Hoc';
 
 function App() {
   return (
@@ -34,6 +37,8 @@ function App() {
         <Route path ='/CreditCard' component={CreditCards} />
         <Route path ='/DatePickerd' component={DatePickerd} />
         <Route path ='/AgeCal' component={AgeCal} />
+        <Route path ='/MultipleRedux' component={MultipleRedux} />
+        <Route path ='/Hoc' component={Hoc} />
         <Route path ='/:postId' component={Post} />
       </Switch>
     </div>

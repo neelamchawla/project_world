@@ -75,9 +75,16 @@ class Icons extends Component {
   }
 }
   
-const mapStateToProps = (state) => {
+// const mapStateToProps = (state) => {
+//   return {
+//     posts: state.posts
+//   }
+// }
+
+// combinnning multiple reducers replacing state with store
+const mapStateToProps = (store) => {
   return {
-    posts: state.posts
+    posts: store.rootReducer.posts
   }
 }
   export default connect(mapStateToProps)(Icons);
