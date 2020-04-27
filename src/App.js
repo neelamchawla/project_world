@@ -17,6 +17,7 @@ import DatePickerd from './component/9_DatePicker';
 import Post from './component/10_Post';
 import AgeCal from './component/12_AgeCal';
 import MultipleRedux from './component/13_MultipleRedux';
+// import SagaAge from './component/14_SagaAge';
 import Hoc from './component/hocs/Hoc';
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
         <Route path ='/Toastify' component={Toastify} />
         <Route path ='/Modals' component={Modals} />
         <Route path ='/ToolTip' component={ToolTip} />
-        <Route path ='/ContUp' component={CountingUp} />
+        <Route path ='/CountUp' component={CountingUp} />
         <Route path ='/IdleTimer' component={IdleTimerContainer} />
         <Route path ='/ColorPicker' component={ColorPicker} />
         <Route path ='/CreditCard' component={CreditCards} />
@@ -39,6 +40,7 @@ function App() {
         <Route path ='/AgeCal' component={AgeCal} />
         <Route path ='/MultipleRedux' component={MultipleRedux} />
         <Route path ='/Hoc' component={Hoc} />
+        {/* <Route path ='/SagaAge' component={SagaAge} /> */}
         <Route path ='/:postId' component={Post} />
       </Switch>
     </div>

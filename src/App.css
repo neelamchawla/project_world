@@ -110,3 +110,12 @@ li.link-wrapper > a.active {
   display: inline-block;
   margin: 40px;
 }
+
+th{
+  color: tomato;
+}
+
+.container{
+  border: 5px ridge tomato;
+  width: 43vw;
+}

@@ -32,7 +32,7 @@ const Navbar = (props) => {
             <NavLink to='/ToolTip'>Tool Tip</NavLink>
         </li>
         <li>
-            <Link to='/ContUp'>Cont Up</Link>
+            <Link to='/CountUp'>Count Up</Link>
         </li>
         <li>
             <Link to='/IdleTimer'>Idle Timer</Link>
@@ -55,6 +55,9 @@ const Navbar = (props) => {
         <li>
             <Link to='/Hoc'>Hoc Redux</Link>
         </li>
+        {/* <li>
+            <Link to='/SagaAge'>Saga Age Redux</Link>
+        </li> */}
       </ul>
     </div>
     </nav>

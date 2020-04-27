@@ -52,6 +52,46 @@ const CreditCards = () => {
           
       </form>
       </center>
+      <div className="container">
+      <table>
+        <tr>
+          <th>Card</th>
+          <th>Demo Number</th>
+        </tr>
+        <tr>
+          <td>Visa</td>
+          <td>4111 1111 1111 1111</td>
+        </tr>
+        <tr>
+          <td>MasterCard</td>
+          <td>5500 0000 0000 0004</td>
+        </tr>
+        <tr>
+          <td>American Express</td>
+          <td>3400 0000 0000 009</td>
+        </tr>
+        <tr>
+          <td>Diner's Club</td>
+          <td>3000 0000 0000 04</td>
+        </tr>
+        <tr>
+          <td>Union Pay</td>
+          <td>6200 0000 0000 0004</td>
+        </tr>
+        <tr>
+          <td>HiperCard</td>
+          <td>6010 0000 0000 0004</td>
+        </tr>
+        <tr>
+          <td>Discover</td>
+          <td>6500 0000 0000 0000</td>
+        </tr>
+        <tr>
+          <td>JCB</td>
+          <td>3500 0000 0000 0009</td>
+        </tr>
+      </table>
+      </div>
     </div>
   )
 }

@@ -35,7 +35,8 @@ const reducerAge = (state = initialState, action) => {
                 age: state.age + action.value,
                 history: state.history.concat({
                     id: Math.random(),
-                    age: state.age + action.value})
+                    age: state.age + action.value}),
+                loading: false
             }
             // break;
         
@@ -58,6 +59,12 @@ const reducerAge = (state = initialState, action) => {
                 history: state.history.filter(res => res.id !== action.key)
             }
             // break;
+
+        case 'LOADING':
+            return {
+                ...state,
+                loading: true
+            }
 
         default :
             return newState;

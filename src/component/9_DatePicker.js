@@ -19,6 +19,7 @@ const DatePickerd = () => {
     showMonthDropdown
     showYearDropdown
     scrollableMonthYearDropdown
+    placeholderText={'Please Enter Date'}
       />
     </div>
   )
