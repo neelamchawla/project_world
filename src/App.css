@@ -97,6 +97,13 @@ li.link-wrapper > a.active {
   color: beige;
   font-size: large;
   font-family: cursive;
+  cursor: pointer;
+}
+
+.historyItem:hover{
+  border: 1px solid #216ba5;
+  background-color: #ee6e73;
+  color: #216ba5;
 }
 
 .col{

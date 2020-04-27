@@ -37,6 +37,7 @@ class AgeCal extends Component {
           <hr/>
 
           <div>History</div>
+          <p>Click on the number you want to DELETE from the list below</p>
           <div>
               <ul>
                   {
