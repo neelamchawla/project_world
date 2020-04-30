@@ -44,7 +44,7 @@ Modal.setAppElement('#root')
     //useSet hooks formate
     const [modalIsOpen, setmodalIsOpen]= React.useState(false)
     return (
-      <div className="App">
+      <div className="modals">
         <button onClick={() => setmodalIsOpen(true)}>
         Open Modal</button>
         {/* <Modal isOpen={modalIsOpen} onRequestClose={()=> setmodalIsOpen(false)}> */}

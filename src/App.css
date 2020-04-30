@@ -88,6 +88,16 @@ li.link-wrapper > a.active {
   padding-left: 80px;
 }
 
+.icon, .toastify, .modals, .tooltip, .colorpicker, .Datepicker, .CreditCards, .ageCal{
+  margin: 5vw;
+}
+
+@media (max-width: 500px) { 
+.CreditCards{
+  margin: 35vw 3vw;
+}
+}
+
 .historyItem{
   /* list-style-type: none; */
   border: 1px solid rosybrown;
@@ -119,3 +129,4 @@ th{
   border: 5px ridge tomato;
   width: 43vw;
 }
+

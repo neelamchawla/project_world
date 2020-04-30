@@ -31,7 +31,7 @@ class AgeCal extends Component {
 
   render() {
     return (
-      <div>
+      <div className="ageCal">
           {/* <div>Age: <span>{this .state.age}</span></div>
           <button onClick={this.onAgeUp}>Age Up</button>
           <button onClick={this.onAgeDown}>Age Down</button> */}

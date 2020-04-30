@@ -55,9 +55,9 @@ const Navbar = (props) => {
         <li>
             <Link to='/Hoc'>Hoc Redux</Link>
         </li>
-        {/* <li>
-            <Link to='/SagaAge'>Saga Age Redux</Link>
-        </li> */}
+        <li>
+            <Link to='/SagaProp'>Saga Redux</Link>
+        </li>
       </ul>
     </div>
     </nav>
