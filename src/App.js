@@ -19,6 +19,8 @@ import AgeCal from './component/12_AgeCal';
 import MultipleRedux from './component/13_MultipleRedux';
 import SagaProp from './component/15_SagaProp.js';
 import Hoc from './component/hocs/Hoc';
+import HooksExample from './component/16_hooks';
+import HooksUseEffect from './component/17_HooksUseEffect';
 
 function App() {
   return (
@@ -41,6 +43,8 @@ function App() {
         <Route path ='/MultipleRedux' component={MultipleRedux} />
         <Route path ='/Hoc' component={Hoc} />
         <Route path ='/SagaProp' component={SagaProp} />
+        <Route path ='/Hooks' component={HooksExample} />
+        <Route path ='/HooksUseEffect' component={HooksUseEffect} />
         <Route path ='/:postId' component={Post} />
       </Switch>
     </div>

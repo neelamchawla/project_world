@@ -58,6 +58,12 @@ const Navbar = (props) => {
         <li>
             <Link to='/SagaProp'>Saga Redux</Link>
         </li>
+        <li>
+            <Link to='/Hooks'>Hooks</Link>
+        </li>
+        <li>
+            <Link to='/HooksUseEffect'>Hooks Use-Effect</Link>
+        </li>
       </ul>
     </div>
     </nav>
